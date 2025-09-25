@@ -35,26 +35,6 @@ body{
     display: flex;
     margin-left: 15%;
 }
-/* .about li:first-child{
-    font-weight: bolder;
-    align-items: center;
-}
-.about li:first-child:hover{
-    color: yellow;
-}
-.sign{
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    padding: 10px;
-    border-radius: 10px;
-}
-.about li:last-child{
-    background-color: rgb(129, 129, 129);
-    padding: 10px;
-    border-radius: 10px;
-} */
-
 .sign{
     background-color: gray;
     padding: 8px;
