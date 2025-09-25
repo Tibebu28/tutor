@@ -1,0 +1,83 @@
+body{
+   margin: 0;
+   padding: 0;
+   background-image: url("https://www.tutor.com/cmspublicfiles/WWW/hero-www-tutorcom.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.nav{
+    background-color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.1px;
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav ul li{
+    font-size: 13px;
+    font-weight: bold;
+    list-style-type: none;
+    margin-left: 5vh;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.nav ul li a:hover{
+    color: rgb(255, 187, 1);
+}
+.nav ul li a img{
+    width: 200px;
+}
+.about{
+    display: flex;
+    margin-left: 15%;
+}
+/* .about li:first-child{
+    font-weight: bolder;
+    align-items: center;
+}
+.about li:first-child:hover{
+    color: yellow;
+}
+.sign{
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+}
+.about li:last-child{
+    background-color: rgb(129, 129, 129);
+    padding: 10px;
+    border-radius: 10px;
+} */
+
+.sign{
+    background-color: gray;
+    padding: 8px;
+    border-radius: 10px;   
+}
+.info{
+    color: rgb(255, 230, 0);
+    font-weight: bolder;
+    margin: 0px 3%;
+}
+.tutor{
+    margin: 10%;
+}
+.tutor p{
+    color: rgb(255, 230, 0);
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 0px; 
+    margin-left: 6%;  
+}
+.tutor h1{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 55px;
+    margin-top: 0px;
+}
